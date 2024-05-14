@@ -41,5 +41,8 @@ void mahasiswa::printAll()
 
 int main()
 {
+    mahasiswa mhs1("Aldys Igidia");
+    mahasiswa mhs2("Hoshi");
     
+    mahasiswa::setNim(9); //mengakses nim melalui static member function "setNim"
 }
